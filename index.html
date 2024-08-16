@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashbord</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+    <!-- Link DaisyUI stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- navbar start -->
+    <div class="bg-[#7749F8] navbar border flex justify-between pl-[30px] pr-[30px] items-center h-16 text-[20px] sm:text-3xl">
+        <p class="ml-5 text-white">Personal Blogging App</p><p class="text-white"><a href="./login.html">login</a></p>
+    </div>
+
+    <!-- navbar end -->
+
+    <!-- blog start -->
+    <div class="navbar bg-gray-100">
+        <div class="flex-1">
+            <h1 class=" sm:text-[1.7rem] text-[20px] font-bold uppercase   pl-[60px]">good morning readers!</h1>
+        </div>
+      </div>
+      <h1 class="sm:text-[1.5rem] text-[18px] font-[600] pl-[70px] ">All Blog</h1>
+    <main class=" w-full flex h-svh justify-center  ">
+        <div class="bg-gray-100 w-[80%] mt-3" id="newblog">
+        </div>
+    </main>
+    <script type="module" src="./script/app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Script files -->
+    <script type="module" src="./script/app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
